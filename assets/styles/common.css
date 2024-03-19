@@ -1,0 +1,93 @@
+.input {
+  align-content: left;
+}
+.input__email {
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+}
+.input__password {
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 10px 12px 20px;
+  overflow: initial;
+}
+.input__password--eye {
+  position: fixed;
+  padding: 0px 0px;
+}
+
+label {
+  text-decoration: none;
+}
+
+.text {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.text__price {
+  position: fixed;
+  padding: 130px 4px;
+}
+.text__description {
+  text-decoration: none;
+}
+.text__place {
+  text-decoration: none;
+}
+.text__link {
+  text-decoration: none;
+}
+.card__login {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.card__img {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.checkbox__preferance {
+  align-self: start;
+}
+.checkbox__favorite {
+  position: absolute;
+  left: 200px;
+}
+
+.button__primary {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.button__flat {
+  padding: 5px;
+  background-color: transparent;
+  color: blue;
+  border-radius: 10px;
+  border: none;
+}/*# sourceMappingURL=common.css.map */
