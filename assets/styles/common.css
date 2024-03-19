@@ -79,7 +79,7 @@ label {
 
 .button__primary {
   padding: 5px;
-  background-color: blue;
+  background-color: #0063fb;
   color: white;
   border-radius: 10px;
   border: none;
@@ -87,7 +87,7 @@ label {
 .button__flat {
   padding: 5px;
   background-color: transparent;
-  color: blue;
+  color: #0063fb;
   border-radius: 10px;
   border: none;
 }/*# sourceMappingURL=common.css.map */
