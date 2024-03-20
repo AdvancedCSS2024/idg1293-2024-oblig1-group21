@@ -1,1 +1,103 @@
-/*# sourceMappingURL=style.css.map */
+.section__cards {
+  justify-content: space-around;
+  padding: 15px 20px 15px 20px;
+}
+.section__cards--contents {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.section__login {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.input {
+  align-content: left;
+}
+.input__email {
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: grey;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+}
+.input__password {
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: grey;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+}
+.input__password--eye {
+  position: absolute;
+  padding: none;
+}
+
+label {
+  text-decoration: none;
+}
+
+.checkbox__preferance {
+  align-self: start;
+}
+.checkbox__favorite {
+  position: absolute;
+  left: 200px;
+}
+
+.button__primary {
+  padding: 5px;
+  background-color: #0063fb;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.button__flat {
+  padding: 5px;
+  background-color: transparent;
+  color: #0063fb;
+  border-radius: 10px;
+  border: none;
+}
+
+.text {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.text__link {
+  text-decoration: none;
+}
+.text__link--underline {
+  text-decoration: underline;
+}
+.text--help {
+  text-decoration: none;
+}
+.text--price {
+  position: absolute;
+  text-decoration: none;
+}
+.text--description {
+  text-decoration: none;
+}
+.text--place {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
