@@ -1,0 +1,149 @@
+// YOU MUST USE BEM HERE
+// IMPLEMENT ALL THE RULES RELATED TO THE COMPONENTS THAT ARE PART OF YOUR DESIGN SYSTEM HERE 
+// Example: input, button, card ...
+
+//Stian
+.nav {
+    &__logo{
+
+    }
+    &__list {
+
+    }
+}
+
+.section {
+    &__searchbar {
+
+    }
+    &__categories {
+        &--row{
+
+        }
+    }
+    &__cards {
+        justify-content: space-around;
+        padding: 15px 20px 15px 20px;
+        &--contents{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+            padding: 15px 20px 15px 20px;
+            height: auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px grey;
+
+        }
+    }
+    &__login {
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        padding: 15px 20px 15px 20px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px grey;
+    }
+}
+
+//Toril
+
+.input {
+    align-content: left;
+    &__email {
+        width: 220px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: grey;
+        padding: 12px 10px 12px 27px;
+        overflow: initial;
+    }
+    &__password {
+        width: 220px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: grey;
+        padding: 12px 10px 12px 27px;
+        overflow: initial;
+        &--eye {
+            position: absolute;
+            padding: none;
+        }
+    }
+}
+
+label {
+    text-decoration: none;
+}
+
+.checkbox {
+    &__preferance {
+        align-self: start;
+    }
+    &__favorite {
+        position: absolute;
+        left: 200px;
+    }
+}
+
+.button {
+    &__primary {
+        padding: 5px;
+        background-color: #0063fb;
+        color: white;
+        border-radius: 10px;
+        border: none;
+    }
+    &__flat {
+        padding: 5px;
+        background-color: transparent;
+        color: #0063fb;
+        border-radius: 10px;
+        border: none;
+
+    }
+}
+
+.text {
+    font-family: sans-serif;
+    text-decoration: none;
+    
+    &__link {
+        text-decoration: none;
+        &--underline {
+            text-decoration: underline;
+        }
+    }
+    &--help {
+        text-decoration: none;
+    }
+    &--price {
+        position: absolute;
+        text-decoration: none;
+    }
+    &--description {
+        text-decoration: none;
+    }
+    &--place {
+        text-decoration: none;
+    }
+    
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
