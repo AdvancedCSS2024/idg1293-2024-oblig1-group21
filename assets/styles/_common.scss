@@ -3,21 +3,40 @@
 // Example: input, button, card ...
 
 //Stian
-.nav {
-    &__logo{
 
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        font-weight: bold;
+        font-family: sans-serif;
+        display: flex;
     }
     &__list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: right;
 
     }
 }
 
+span { //Text color for icons
+    color: black;
+    display: block;
+}
+
 .section {
     &__searchbar {
-
     }
     &__categories {
+        color: #06befb;
         &--row{
+            list-style-type: none;
+            display: grid;
+            grid-template-columns:repeat(3, 15em 1fr) 200px;
 
         }
     }
@@ -72,7 +91,7 @@
         width: 220px;
         box-sizing: border-box;
         border-radius: 4px;
-        background-color: grey;
+        background-color: #E5E5E5;
         padding: 12px 10px 12px 27px;
         overflow: initial;
     }
@@ -80,13 +99,23 @@
         width: 220px;
         box-sizing: border-box;
         border-radius: 4px;
-        background-color: grey;
+        background-color: #E5E5E5;
         padding: 12px 10px 12px 27px;
         overflow: initial;
         &--eye {
             position: absolute;
             padding: none;
         }
+    }
+    &__searchbar {
+        width: 50%;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: white;
+        padding: 12px 10px 12px 27px;
+        overflow: initial;
+        border: 2px solid #c3ccd9;
     }
 }
 
@@ -132,8 +161,10 @@ label {
             text-decoration: underline;
         }
     }
-    &--help {
+    &__help {
         text-decoration: none;
+        font-size: 14px;
+        font-family: sans-serif;
     }
     &--price {
         position: absolute;
