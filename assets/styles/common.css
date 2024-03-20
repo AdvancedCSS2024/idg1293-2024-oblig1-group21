@@ -32,6 +32,9 @@ label {
   font-family: sans-serif;
   text-decoration: none;
 }
+.text__help {
+  text-decoration: none;
+}
 .text__price {
   position: fixed;
   padding: 130px 4px;
@@ -45,6 +48,10 @@ label {
 .text__link {
   text-decoration: none;
 }
+.text__link--underline {
+  text-decoration: underline;
+}
+
 .card__login {
   width: 220px;
   display: flex;
@@ -69,6 +76,10 @@ label {
   border-radius: 10px;
   box-shadow: 5px 5px 10px grey;
 }
+.card__img--button {
+  padding: 15px 20px 15px 20px;
+}
+
 .checkbox__preferance {
   align-self: start;
 }

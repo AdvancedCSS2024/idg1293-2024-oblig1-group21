@@ -40,7 +40,7 @@ label {
     font-family: sans-serif;
     text-decoration: none;
     &__help {
-
+        text-decoration: none;
     }
     &__price {
         position: fixed;
@@ -59,6 +59,7 @@ label {
         text-decoration: none;
 
         &--underline {
+            text-decoration: underline;
 
         }
     }
@@ -91,7 +92,7 @@ label {
         box-shadow: 5px 5px 10px grey;
 
         &--button {
-
+            padding: 15px 20px 15px 20px;
         }
     }
 }
