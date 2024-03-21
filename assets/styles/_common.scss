@@ -42,31 +42,34 @@ span { //Text color for icons
     }
     &__cards {
         justify-content: space-around;
-        padding: 15px 20px 15px 20px;
+        padding: 15px 15px 15px 15px;
+        &--heart {
+            
+        }
         &--contents{
-            width: 200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: left;
-            padding: 15px 20px 15px 20px;
-            height: auto;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 5px 5px 10px grey;
+            //width: 150px;
+            //display: flex;
+            //flex-direction: column;
+            //justify-content: space-between;
+            //align-items: left;
+            //padding: 15px 20px 15px 20px;
+            //height: auto;
+            //background-color: white;
+            //border-radius: 10px;
+            //box-shadow: 5px 5px 10px grey;
 
         }
         &--img {
-            width: 200px;
+            width: 40%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            object-fit: cover;
             align-items: left;
-            padding: 15px 20px 15px 20px;
-            height: auto;
+            height: 50%;
             background-color: white;
             border-radius: 10px;
-            box-shadow: 5px 5px 10px grey;
+            box-shadow: 1px 1px 2px grey;
         }
     }
     &__login {
