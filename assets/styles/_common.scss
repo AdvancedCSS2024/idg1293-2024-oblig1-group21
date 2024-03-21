@@ -2,8 +2,6 @@
 // IMPLEMENT ALL THE RULES RELATED TO THE COMPONENTS THAT ARE PART OF YOUR DESIGN SYSTEM HERE 
 // Example: input, button, card ...
 
-//Stian
-
 .nav {
     padding: 10px 20px;
     display: flex;
@@ -11,7 +9,7 @@
     align-items: center;
     &__logo{
         font-weight: bold;
-        font-family: sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         display: flex;
     }
     &__list {
@@ -19,17 +17,24 @@
         display: flex;
         flex-direction: row;
         align-items: right;
-
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
 span { //Text color for icons
     color: black;
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.section {
+section {
+    display: grid;
+    grid-template-columns:repeat(, 15em 1fr) 200px;
+    font-size: 16px;
     &__searchbar {
+        display: block;
+        justify-content: center;
+
     }
     &__categories {
         color: #06befb;
@@ -41,57 +46,62 @@ span { //Text color for icons
         }
     }
     &__cards {
-        justify-content: space-around;
-        padding: 15px 15px 15px 15px;
-        &--heart {
-            
-        }
-        &--contents{
-            //width: 150px;
-            //display: flex;
-            //flex-direction: column;
-            //justify-content: space-between;
-            //align-items: left;
-            //padding: 15px 20px 15px 20px;
-            //height: auto;
-            //background-color: white;
-            //border-radius: 10px;
-            //box-shadow: 5px 5px 10px grey;
+        width: 400px;
+        display: 1 flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: left;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px grey;
+        overflow: hidden;
+
+        &--heart { //theory: it wont work because of Finns own structure with the svg
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            right: 10px;
+            width: 24px;
+            height: auto;
 
         }
-        &--img {
-            width: 40%;
+        &--contents{
+            width: 200px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            object-fit: cover;
             align-items: left;
-            height: 50%;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 1px 1px 2px grey;
+            padding: 15px 20px 15px 20px;
+            height: 200px;
+
+
+        }
+        &--img {
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+
         }
     }
     &__login {
-        width: 220px;
-        display: flex;
-        flex-direction: column;
+        width: 400px;
         justify-content: space-between;
         align-items: left;
-        padding: 15px 20px 15px 20px;
-        height: auto;
         background-color: white;
         border-radius: 10px;
-        box-shadow: 5px 5px 10px grey;
+        box-shadow: 1px 1px 2px grey;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px 15px 20px;
+        height: 500px
     }
 }
-
-//Toril
 
 .input {
     align-content: left;
     &__email {
-        width: 220px;
+        width: 400px;
         box-sizing: border-box;
         border-radius: 4px;
         background-color: #E5E5E5;
@@ -99,7 +109,7 @@ span { //Text color for icons
         overflow: initial;
     }
     &__password {
-        width: 220px;
+        width: 400px;
         box-sizing: border-box;
         border-radius: 4px;
         background-color: #E5E5E5;
@@ -129,6 +139,7 @@ label {
 .checkbox {
     &__preferance {
         align-self: start;
+
     }
     &__favorite {
         position: absolute;
@@ -138,24 +149,25 @@ label {
 
 .button {
     &__primary {
-        padding: 5px;
+        padding: 20px;
         background-color: #0063fb;
         color: white;
-        border-radius: 10px;
+        border-radius: 8px;
         border: none;
     }
     &__flat {
-        padding: 5px;
+        padding: 20px;
         background-color: transparent;
         color: #0063fb;
-        border-radius: 10px;
+        border-radius: 8px;
         border: none;
 
     }
 }
 
 .text {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5px;
     text-decoration: none;
     
     &__link {
@@ -172,24 +184,36 @@ label {
     &--price {
         position: absolute;
         text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+
     }
     &--description {
         text-decoration: none;
     }
     &--place {
-        text-decoration: none;
+        text-decoration: none;        
+        color: #767676;
     }
     
 }
 
 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h3 {
+    font-family: Arial, Helvetica, sans-serif;
 
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
