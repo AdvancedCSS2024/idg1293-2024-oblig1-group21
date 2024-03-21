@@ -1,0 +1,234 @@
+body {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  gap: 270px;
+  border-bottom: 0.3px solid #888;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  font-weight: bold;
+  display: flex;
+}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+}
+
+span {
+  color: black;
+  display: block;
+}
+
+.img {
+  width: 245px;
+  height: auto;
+  border: solid 1px #e5e5e5;
+  border-radius: 10px;
+  box-shadow: inset 1px 2px #e5e5e5;
+  border-color: var(--f-bluegray-300);
+}
+
+.section {
+  font-size: 16px;
+}
+.section__figures {
+  display: flex;
+}
+.section__searchbar {
+  display: flex;
+  justify-content: center;
+}
+.section__categories {
+  color: #06befb;
+  display: flex;
+  justify-content: center;
+}
+.section__categories--row {
+  list-style-type: none;
+  flex-direction: column;
+}
+.section__cards--1 {
+  width: 250px;
+  height: 300px;
+  flex: 1;
+  flex-direction: row;
+  align-items: left;
+  background-color: white;
+  overflow: hidden;
+}
+.section__cards--2 {
+  width: 250px;
+  height: 300px;
+  flex: 1;
+  flex-direction: row;
+  align-items: left;
+  background-color: white;
+  overflow: hidden;
+}
+.section__cards--3 {
+  width: 250px;
+  height: 300px;
+  flex: 1;
+  flex-direction: row;
+  align-items: left;
+  background-color: white;
+  overflow: hidden;
+}
+.section__cards--heart {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: auto;
+}
+.section__cards--contents {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 15px 20px 15px 20px;
+  height: 100px;
+}
+.section__login {
+  width: 400px;
+  justify-content: space-between;
+  align-items: left;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 15px 20px;
+  height: 500px;
+}
+
+.input {
+  align-content: left;
+}
+.input__email {
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #E5E5E5;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+}
+.input__password {
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #E5E5E5;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+}
+.input__password--eye {
+  position: absolute;
+  padding: none;
+}
+.input__searchbar {
+  width: 900px;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  padding: 12px 10px 12px 27px;
+  overflow: initial;
+  border: 2px solid #c3ccd9;
+}
+
+label {
+  text-decoration: none;
+}
+
+.checkbox__preferance {
+  align-self: start;
+}
+.checkbox__favorite {
+  position: absolute;
+  left: 200px;
+}
+
+.button__primary {
+  padding: 20px;
+  background-color: #0063fb;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+.button__flat {
+  padding: 20px;
+  background-color: transparent;
+  color: #0063fb;
+  border-radius: 8px;
+  border: none;
+}
+
+.text {
+  line-height: 1.5px;
+  text-decoration: none;
+}
+.text__link {
+  text-decoration: none;
+}
+.text__link--underline {
+  text-decoration: underline;
+}
+.text__help {
+  text-decoration: none;
+  font-size: 14px;
+}
+.text--price {
+  position: absolute;
+  top: 500px;
+  text-decoration: none;
+}
+.text--description {
+  text-decoration: none;
+}
+.text--place {
+  text-decoration: none;
+  color: #767676;
+}
+
+.diva {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.diva__teaser {
+  flex: 1;
+  background: #F1F9FF;
+  overflow: hidden;
+  max-height: 480px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 22px;
+}/*# sourceMappingURL=style.css.map */
