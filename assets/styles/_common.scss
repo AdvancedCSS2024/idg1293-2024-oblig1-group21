@@ -27,10 +27,11 @@ span { //Text color for icons
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-    display: grid;
-    grid-template-columns:repeat(, 15em 1fr) 200px;
+.section {
     font-size: 16px;
+    &__figures {
+        display: flex;
+    }
     &__searchbar {
         display: block;
         justify-content: center;
@@ -38,16 +39,19 @@ section {
     }
     &__categories {
         color: #06befb;
+        display: flex;
+        //flex-direction: column;
         &--row{
             list-style-type: none;
-            display: grid;
-            grid-template-columns:repeat(3, 15em 1fr) 200px;
+            flex-direction: column;
+            //display: grid;
+           // grid-template-columns:repeat(3, 15em 1fr) 200px;
 
         }
     }
     &__cards {
         width: 400px;
-        display: 1 flex;
+        flex: 1;
         flex-direction: row;
         justify-content: space-between;
         align-items: left;
@@ -55,6 +59,16 @@ section {
         border-radius: 10px;
         box-shadow: 1px 1px 2px grey;
         overflow: hidden;
+
+        &--1 {
+
+        }
+        &--2 {
+
+        }
+        &--3 {
+
+        }
 
         &--heart { //theory: it wont work because of Finns own structure with the svg
             position: absolute;

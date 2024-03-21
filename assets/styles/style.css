@@ -24,9 +24,10 @@ span {
 }
 
 .section {
-  display: grid;
-  grid-template-columns: repeat(9, 15em 1fr) 200px;
   font-size: 16px;
+}
+.section__figures {
+  display: flex;
 }
 .section__searchbar {
   display: block;
@@ -34,15 +35,15 @@ span {
 }
 .section__categories {
   color: #06befb;
+  display: flex;
 }
 .section__categories--row {
   list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 15em 1fr) 200px;
+  flex-direction: column;
 }
 .section__cards {
   width: 400px;
-  display: 1 flex;
+  flex: 1;
   flex-direction: row;
   justify-content: space-between;
   align-items: left;
