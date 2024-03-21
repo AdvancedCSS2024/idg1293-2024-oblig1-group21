@@ -24,4 +24,4 @@ Then we tried to style our site to look like "finn.no" with BEM and the use of S
 5. FINAL
 There are some small changes from our original plan to our execution. Since we have looked on the live "finn.no" site there are some
 elements we have changed like f.eks "paragraph". In the code we changed it to either h1, h2 or h3 like the one in "finn.no".
-Other than that we think we have proven an understanding of BEM. We have not gotten a good understanding of @use for colors used in the SASS and therefore decided not to use it this time, but have gotten a good understanding of design system. We have demonstrated that we can work in a collaborative way using github now.
+Other than that we think we have proven an understanding of BEM. We have not gotten a good understanding of @use for colors used in the SASS and therefore decided not to use it this time, but have gotten a good understanding of design system. We have demonstrated that we can work in a collaborative way using github now. And lastly we have shown we can deploy a simple website in Github pages.
